@@ -1,13 +1,17 @@
 {
     "name": "Website Blocker",
     "description": "Simple URL Blocker",
-    "version": "1.0",
+    "version": "0.5",
     "manifest_version": 3,
     "background" : {
         "service_worker": "js/blocker.js"
     },
     "options_ui": {
-        "page": "options.html"
+        "page": "html/options.html"
+    },
+    "action": {
+        "default_popup": "html/popup.html",
+        "blocked_notification_popup": "html/blockedSiteNotification.html"
     },
     "permissions" : [
         "tabs", "storage"
