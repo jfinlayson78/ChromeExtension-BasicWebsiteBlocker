@@ -1,5 +1,5 @@
 let redirectURL = 'https://www.github.com';
-const blockedURLs = ["redscarepod", "stupidpol", "askanamerican", "moderatepolitics", "politicalcompassmemes", "actualpublicfreakouts", "combatfootage"]; 
+const blockedURLs = ["redscarepod", "stupidpol", "askanamerican", "moderatepolitics", "politicalcompassmemes", "actualpublicfreakouts", "combatfootage", "twitter", "tumblr"]; 
 
 // A listener that checks when a new URL is entered
 chrome.tabs.onUpdated.addListener( function (tabID, changeInfo, tab) {
